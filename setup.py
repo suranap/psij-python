@@ -25,7 +25,7 @@ if __name__ == '__main__':
         ],
 
 
-        packages=find_packages(where='src') + ['psij-descriptors'],
+        packages=find_packages(where='src') + ['psij-descriptors', 'psij.executors.remote_job_executor'],
         package_dir={'': 'src'},
 
         package_data={
